@@ -62,12 +62,12 @@ TEST(class_circle, can_create_with_large_rad) {
     EXPECT_NEAR(c.getFerence(), 628318.5307179, 1e-6);
     EXPECT_NEAR(c.getArea(), 31415926535.897932, 1e-6);
 }
-TEST(class_circle, rad_2) {
+TEST(class_circle, rad_26_2) {
     Circle c;
-    c.setRadius(2.0);
-    EXPECT_DOUBLE_EQ(c.getRadius(), 2.0);
-    EXPECT_NEAR(c.getFerence(), 12.5663706, 1e-6);
-    EXPECT_NEAR(c.getArea(), 12.5663706, 1e-6);
+    c.setRadius(26.2);
+    EXPECT_DOUBLE_EQ(c.getRadius(), 26.2);
+    EXPECT_NEAR(c.getFerence(), 164.61945504, 1e-6);
+    EXPECT_NEAR(c.getArea(), 2156.51456113, 1e-6);
 }
 TEST(class_circle, rad_2) {
     Circle c;
