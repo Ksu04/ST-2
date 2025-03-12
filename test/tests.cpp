@@ -105,7 +105,7 @@ TEST(class_circle, ference_120) {
 TEST(class_circle, ference_555) {
     Circle c;
     c.setFerence(555.0);
-    EXPECT_NEAR(c.getRadius(),88.3309934, 1e-6);
+    EXPECT_NEAR(c.getRadius(), 88.3309934, 1e-6);
     EXPECT_NEAR(c.getArea(), 24511.850672, 1e-6);
 }
 TEST(class_circle, area_25) {
