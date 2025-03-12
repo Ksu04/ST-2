@@ -67,7 +67,7 @@ TEST(class_circle, rad_26_2) {
     c.setRadius(26.2);
     EXPECT_DOUBLE_EQ(c.getRadius(), 26.2);
     EXPECT_NEAR(c.getFerence(), 164.61945504, 1e-6);
-    EXPECT_NEAR(c.getArea(), 2156.51456113, 1e-6);
+    EXPECT_NEAR(c.getArea(), 2156.51486113, 1e-6);
 }
 TEST(class_circle, rad_2) {
     Circle c;
@@ -80,7 +80,7 @@ TEST(class_circle, rad_36) {
     Circle c;
     c.setRadius(36.0);
     EXPECT_DOUBLE_EQ(c.getRadius(), 36.0);
-    EXPECT_NEAR(c.getFerence(), 266.194671, 1e-6);
+    EXPECT_NEAR(c.getFerence(), 226.194671, 1e-6);
     EXPECT_NEAR(c.getArea(), 4071.504079, 1e-6);
 }
 TEST(class_circle, rad_160) {
@@ -105,7 +105,7 @@ TEST(class_circle, ference_120) {
 TEST(class_circle, ference_555) {
     Circle c;
     c.setFerence(555.0);
-    EXPECT_NEAR(c.getRadius(), 8.75352187, 1e-6);
+    EXPECT_NEAR(c.getRadius(),88.3309934, 1e-6);
     EXPECT_NEAR(c.getArea(), 24511.850672, 1e-6);
 }
 TEST(class_circle, area_25) {
@@ -124,7 +124,7 @@ TEST(class_circle, area_80) {
     Circle c;
     c.setArea(9.0);
     EXPECT_NEAR(c.getRadius(), 5.04626504, 1e-6);
-    EXPECT_NEAR(c.getFerence(), 31.70661838, 1e-6);
+    EXPECT_NEAR(c.getFerence(), 21.70661838, 1e-6);
 }
 
 TEST(test_task_1, earth_and_roop) {
