@@ -116,15 +116,15 @@ TEST(class_circle, area_25) {
 }
 TEST(class_circle, area_1) {
     Circle c;
-    c.setArea(9.0);
+    c.setArea(1.0);
     EXPECT_NEAR(c.getRadius(), 0.56418958, 1e-6);
     EXPECT_NEAR(c.getFerence(), 3.5449077, 1e-6);
 }
 TEST(class_circle, area_80) {
     Circle c;
-    c.setArea(9.0);
+    c.setArea(80.0);
     EXPECT_NEAR(c.getRadius(), 5.04626504, 1e-6);
-    EXPECT_NEAR(c.getFerence(), 21.70661838, 1e-6);
+    EXPECT_NEAR(c.getFerence(), 31.70661838, 1e-6);
 }
 
 TEST(test_task_1, earth_and_roop) {
